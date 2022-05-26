@@ -14,9 +14,9 @@ The app is a job management system that allows for both employees and managers t
 
 There could be a central homepage and then 2 tabs that offer dynamic view information for either Managers or Employees.
 
-##Basic User Stories:
+## Basic User Stories:
 
-#Managers:
+# Managers:
 
 Managers can add new jobs to a list of jobs.
 
@@ -25,7 +25,7 @@ Managers can view the list of jobs they have created.
 Managers can view specific job details.
 
 
-#Employees:
+# Employees:
 
 Employee’s can view a list of job offers.
 
