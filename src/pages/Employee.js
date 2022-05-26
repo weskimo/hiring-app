@@ -54,7 +54,7 @@ export default function Employee() {
        <h1>Employee</h1>
        <h3>Find a list of your job offers below:</h3>
 
-       <List children={list} sx={{ width: '100%', bgcolor: 'background.paper' }} style={Styles.}>
+       <List children={list} sx={{ width: '100%', bgcolor: 'background.paper' }} >
             {list.map((item) =>
                 <ListItem alignItems="center">
                      <Accordion expanded={expanded === list.indexOf(item)} onChange={handleChange(list.indexOf(item))}>
