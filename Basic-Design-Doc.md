@@ -1,8 +1,11 @@
 ## Very basic design doc
 
 ## Requirements
+
 React.js - development
+
 Jest - testing
+
 Github - version control
 
 ## The App:
