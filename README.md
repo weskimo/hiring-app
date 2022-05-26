@@ -1,70 +1,28 @@
-# Getting Started with Create React App
+## Screen Shots:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![unknown (11)](https://user-images.githubusercontent.com/10574775/170529209-a6d3a6a3-5550-4dd7-914b-a1349f3725fa.png)
+![unknown (12)](https://user-images.githubusercontent.com/10574775/170529222-f2792bdb-be80-49eb-9210-0518d028d4a7.png)
+![unknown (13)](https://user-images.githubusercontent.com/10574775/170529225-6c85bc9a-7e3a-4872-b801-6fff9bf1c76b.png)
+![unknown (14)](https://user-images.githubusercontent.com/10574775/170529233-07af398e-e479-4c38-892f-dcbfed19921b.png)
+![unknown (16)](https://user-images.githubusercontent.com/10574775/170529240-dde11792-a645-44f8-a3b1-fddf56fd733b.png)
 
-## Available Scripts
+## Excerise Front-End A - Creating an offer
+I chose this because I want to work a Front-End developer job. I have more experience with this than the back-end task.
 
-In the project directory, you can run:
+## What I built:
+I tried to follow the task as closely as possible. I started with a brief design document and then built the navbar. Next I implemented the core task which was to have a page for managers to create new job offers and a second page for employees to look at a list of jobs that they had been sent. I used accordian's with lists to make the lists of job offers for both pages.
 
-### `npm start`
+## How to run:
+I was just using npm start in the folder and viewing on local host.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Feedback notes:
+I found it confusing that there was no api/backend for me to utilise. I would have liked for example a restful api that let me save job offers and load job offers in accordingly. I spent sometime trying to understand how I could get a link to a specific job to send to a specific user due to lack of back-end services. To this end, I just generated fake data in the soruce code to try to show how the data would be displayed. (employee page).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Testing:
+Due to my time limit running out I was not able to add tests within the 3hr time limit. I do have experience using TDD with c# /.net framework, as well as experience using Juint with Java and Jest with React native.
 
-### `npm test`
+## Anything else:
+During my degree I used React Native extensively and have much more experience in ReactNative than React, but I know I could improve very fast if I started using React everyday. I know that with time I could have made this asseessment application exponentially better as I feel it is a bit rubbish right now, but I tried to stick to the under 3 hours time limit.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
