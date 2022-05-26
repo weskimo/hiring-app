@@ -57,3 +57,29 @@ body {
     flex-direction: row;
 }
 
+.bigblueText {
+    color: DodgerBlue;
+    padding: 40px;
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .infoText {
+    font-family: Arial;
+    text-align: center;
+  }
+
+  .managerText {
+    font-family: Arial;
+    text-align: center;
+    color: crimson;
+    padding: 40px;
+  }
+
+  .employeeText {
+    font-family: Arial;
+    text-align: center;
+    color: rebeccapurple;
+    padding: 40px;
+  }
+
