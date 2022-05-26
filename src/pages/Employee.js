@@ -7,28 +7,29 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import Typography from '@mui/material/Typography';
-
 import { Divider } from '@mui/material';
 
 export default function Employee() {
 
-
+    // list for the accordian
     const [list, setList] = useState([])
 
+    // states so we can add jobs to the list of jobs
     const [newJobName, setNewJobName] = useState('')
     const [newJobMonComp, setNewJobMonComp] = useState('')
     const [newJobNonMonComp, setNewJobNonMonComp] = useState('')
 
-
+    // for the accordian to be expanded
     const [expanded, setExpanded] = React.useState(false);
 
+    // handles the accordian expansion
     const handleChange = (panel) => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
     };
 
    
 
-
+    // this generates static 'fake' data to be simulated into the app, Here we would normally want a call to database to get the data
     React.useEffect(() => {
         setList(prevList => {
             return [...prevList, {name: "Engineer", monComp: "£30,000 and 1% company shares", nonMonComp: "Gym Pass, Healthcare", jobInfo: "Full time, React Engineer"}]
@@ -53,7 +54,7 @@ export default function Employee() {
        <h1>Employee</h1>
        <h3>Find a list of your job offers below:</h3>
 
-       <List children={list} sx={{ width: '100%', bgcolor: 'background.paper' }}>
+       <List children={list} sx={{ width: '100%', bgcolor: 'background.paper' }} style={Styles.}>
             {list.map((item) =>
                 <ListItem alignItems="center">
                      <Accordion expanded={expanded === list.indexOf(item)} onChange={handleChange(list.indexOf(item))}>

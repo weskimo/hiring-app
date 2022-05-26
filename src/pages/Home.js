@@ -19,11 +19,11 @@ export default function Home() {
             
             <div> <h3 className='managerText'>Managers:</h3> </div>
             <div>
-             <text className='infoText'>On this web application, managers can add new jobs to a list of jobs, and then view individual jobs.</text>
+             <text className='infoText'>Managers can access the employee features by navigating to the Managers tab on the nav bar.</text>
             </div>
             <div>
-            <div> <h3 className='employeeText'>Managers:</h3> </div>
-            <text className='infoText'>Managers can access these features by navigating to the Managers tab on the nav bar.</text>
+            <div> <h3 className='employeeText'>Employees:</h3> </div>
+            <text className='infoText'>Employees can access the employee features by navigating to the Employees tab on the nav bar.</text>
             </div>
            
  

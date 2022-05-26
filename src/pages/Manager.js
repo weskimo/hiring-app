@@ -11,19 +11,23 @@ import Typography from '@mui/material/Typography';
 
 export default function Manager() {
 
-
+    // list for the jobs
     const [list, setList] = useState([])
 
+    // states to add new jobs to the list
     const [newJobName, setNewJobName] = useState('')
     const [newJobMonComp, setNewJobMonComp] = useState('')
     const [newJobNonMonComp, setNewJobNonMonComp] = useState('')
 
+    // for the accordian to be expanded
     const [expanded, setExpanded] = React.useState(false);
 
+    // handles the accordian being opened.
     const handleChange = (panel) => (event, isExpanded) => {
         setExpanded(isExpanded ? panel : false);
     };
 
+    // function to add a new job item to the list of jobs
     function addItem(e) {
         setList(prevList => {
             return [...prevList, {name: newJobName, monComp: newJobMonComp, nonMonComp: newJobNonMonComp}]
@@ -71,7 +75,7 @@ export default function Manager() {
 
 
 
-        <List children={list} sx={{ width: '100%', bgcolor: 'background.paper' }}>
+        <List children={list} sx={{ width: '100%', bgcolor: 'background.paper' }} >
             {list.map((item) =>
                 <ListItem alignItems="center">
                      <Accordion expanded={expanded === list.indexOf(item)} onChange={handleChange(list.indexOf(item))}>
